@@ -1,0 +1,176 @@
+body {
+  font-family: "Josefin Sans";
+  background-color: #fffafb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.instruction {
+  position: absolute;
+  left: 100px;
+}
+
+.logo img {
+  width: 15%;
+}
+header {
+  position: fixed;
+  background-color: #f4f2f2;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  min-height: 75px;
+  padding: 0px 20px;
+  font-size: 20px;
+}
+nav {
+  position: absolute;
+  margin-top: 10px;
+  margin-right: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding: 0 50px;
+}
+nav a {
+  display: inline-block;
+  background-color: #852fb430;
+  width: 10%;
+  font-size: 20px;
+  padding: 8px 8px;
+  text-align: center;
+  margin: 10px;
+  color: #000000;
+  border-radius: 5px;
+  text-decoration: none;
+  overflow: auto;
+}
+
+nav a:hover {
+  background-color: purple;
+  color: #fff;
+}
+.grid {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+#features {
+  margin-top: 150px;
+  width: 80%;
+}
+
+.icon {
+  color: #9b0b838d;
+  width: 150px;
+  align-items: center;
+}
+
+#pricing {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 60px;
+  gap: 60px;
+}
+
+.product {
+  padding: 30px;
+  border: 2px solid black;
+}
+
+.btn {
+  background-color: hwb(279 2% 64% / 0.567);
+  padding: 5px 10px;
+  width: 100px;
+}
+
+.btn:hover {
+  background-color: purple;
+  color: #fff;
+}
+
+ol {
+  list-style: none;
+}
+
+#how-to-use {
+  margin-left: 450px;
+  margin-top: 100px;
+}
+
+#how-to-use > h2 {
+  margin-left: 300px;
+  margin-bottom: 30px;
+}
+
+.ship {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  height: 600px;
+  font-size: 25px;
+}
+
+.ship #purchase #form h2 {
+  margin-bottom: 25px;
+}
+.control-form {
+  display: block;
+  width: 80%;
+  height: 50px;
+  font-size: 20px;
+  padding: 3.75px;
+  margin-top: 6px;
+  background-clip: padding-box;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding-left: 3px;
+}
+
+#submit {
+  background-color: hwb(279 2% 64% / 0.567);
+}
+
+#submit:hover {
+  background-color: purple;
+  color: #fff;
+}
+
+.footer {
+  background-color: #852fb430;
+  height: 100px;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 1px solid #852fb430;
+  border-radius: 10px;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}

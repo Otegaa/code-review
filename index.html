@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Microverse HTML Collaboration Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script
+      src="https://kit.fontawesome.com/68aea0d1de.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+
+    <div class="page-wrapper">
+      <header div="header">
+        <div class="logo">
+          <img
+            src="./Assets/Purple Musical Sound Music Logo .png"
+            alt="logo"
+            id="header-img"
+          />
+        </div>
+
+        <div class="instruction">
+          <h2>Earphones For The Best Music Experience</h2>
+        </div>
+        <nav id="nav-bar">
+          <a class="nav-link" href="#features">Features</a>
+          <a class="nav-link" href="#pricing">Pricing</a>
+          <a class="nav-link" href="#how-to-use">How To Use</a>
+          <a class="nav-link" href="#purchase">Purchase</a>
+        </nav>
+      </header>
+
+      <div class="conatiner">
+        <section id="features">
+          <div class="grid">
+            <div class="icon">
+              <i class="fa-solid fa-fire-flame-curved fa-2x"></i>
+            </div>
+            <div class="description">
+              <h2>Best Quality headphones</h2>
+              <p>
+                Premium headphones to listen to the best quality music for a
+                long time.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa-solid fa-truck-fast fa-2x"></i>
+            </div>
+            <div class="description">
+              <h2>We ship very fast.</h2>
+              <p>
+                You get your product in one or two business days after purchase
+                and confirmation of payment. <br />We also offer free shipping
+                for orders over $200.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa-solid fa-rotate-left fa-2x"></i>
+            </div>
+            <div class="description">
+              <h2>Warranty</h2>
+              <p>We offer warranty for a year.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="pricing">
+          <div class="product" id="price">
+            <div class="headphones">Headphones</div>
+            <h2>$300</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor sit.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+
+          <div class="product" id="price">
+            <div class="airpods-pro">Airpods Pro</div>
+            <h2>$250</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor sit.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+
+          <div class="product" id="price">
+            <div class="airpods-2">Airpods Gen 2</div>
+            <h2>$180</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor sit.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+      </div>
+
+      <section id="how-to-use">
+        <h2>How to Use</h2>
+        <iframe
+          width="700"
+          height="541"
+          src="https://www.youtube.com/embed/gA-D52u6UX4"
+          title="How to use JBL LIVE 650BTNC wireless headphones (instructions)"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <div class="ship">
+        <section id="purchase">
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <h2>Enter your shipping details below:</h2>
+            <label for="name">Enter Your Name:</label>
+            <br />
+            <input
+              type="text"
+              id="name"
+              placeholder="Name"
+              class="control-form"
+              required
+            />
+            <br />
+            <label for="email">Enter Your Email:</label> <br />
+            <input
+              type="email"
+              id="email"
+              placeholder="Email"
+              class="control-form"
+              required
+            />
+            <br />
+            <label for="number">Enter Your Phone Number:</label> <br />
+            <input
+              type="number"
+              id="number"
+              placeholder="Phone Number"
+              class="control-form"
+              required
+            />
+            <br />
+            <label for="address">Enter Your Shipping Address:</label> <br />
+            <input
+              type="text"
+              id="address"
+              placeholder="Shipping Address"
+              class="control-form"
+              required
+            />
+            <br />
+            <input
+              type="submit"
+              value="Submit"
+              id="submit"
+              class="control-form"
+            />
+          </form>
+        </section>
+      </div>
+
+      <footer class="footer">
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+
+        <span>Copyright 2022, Earphones for The BME</span>
+      </footer>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
